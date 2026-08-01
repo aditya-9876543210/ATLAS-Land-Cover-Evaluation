@@ -63,7 +63,7 @@ Cropland
 Herbaceous Wetland
 ```
 
-Before beginning the analysis, ATLAS checks the total number of rows and every class label in the two required columns. If the file contains an unexpected class, missing value, capitalization difference, or incorrect number of observations, the notebook will raise an error instead of continuing with incomplete data.
+Before beginning the analysis, ATLAS checks the total number of rows and every class label in the two required columns. If the file contains an unexpected class, missing value, capitalization difference, or incorrect number of observations, the notebook will raise an error instead of continuing with incomplete data. If your classifications utilize a different labeling system, crosswalk your current labels to the ones used by ATLAS.
 
 ## How to Run ATLAS
 
