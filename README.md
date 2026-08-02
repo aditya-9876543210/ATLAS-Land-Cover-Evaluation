@@ -1,6 +1,6 @@
 # ATLAS
 
-ATLAS is a Python-based land-cover data analysis tool I developed for my NASA STEM Enhancement in Earth Science (SEES) Earth System Explorers project. It compares ground-truth land-cover observations against classifications produced using ESA WorldCover data.
+The Automated Terrain and Land-Cover Assessment System (ATLAS) is a Python-based land-cover data analysis tool I developed for my NASA STEM Enhancement in Earth Science (SEES) Earth System Explorers project. It compares ground-truth land-cover observations against classifications produced using ESA WorldCover data.
 
 The main purpose of ATLAS is to make classification error easier to understand. Overall accuracy alone does not always tell the full story, especially when some land-cover classes appear far more often than others. As such, ATLAS analyzes performance both across the complete dataset and within each Primary Sampling Unit (PSU).
 
