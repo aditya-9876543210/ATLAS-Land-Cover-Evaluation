@@ -170,15 +170,3 @@ If two classes are tied for the largest percentage of a PSU, ATLAS currently sel
 The hierarchy percent error compares how frequently each class appears as primary or secondary across the complete AOI. It does not determine whether those classifications occurred in the correct individual PSUs.
 
 The visualization grids are not georeferenced, do not preserve the physical spacing between points or PSUs, and should not be interpreted as continuous maps.
-
-## Future Work
-
-I plan to expand ATLAS with:
-
-* Normalized confusion-matrix visualizations
-* Optional figure exporting
-* Coordinate-aware spatial visualizations
-* Support for different PSU and AOI dimensions
-* Comparisons between multiple land-cover models
-
-ATLAS v2 establishes the main evaluation workflow and its first set of categorical visualizations. Future versions will focus on making the analysis more spatial, flexible, and applicable to datasets beyond the original AOI.
