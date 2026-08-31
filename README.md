@@ -31,7 +31,7 @@ ATLAS currently calculates:
 
 ## Data Formatting
 
-ATLAS v1 was built around the structure of my original SEES dataset. The Area of Interest contains 36 PSUs, with 100 observations in each PSU. This produces 3,600 total data points.
+ATLAS v2 was built around the structure of my original SEES dataset. The Area of Interest contains 36 PSUs, with 100 observations in each PSU. This produces 3,600 total data points.
 
 Your CSV must contain exactly 3,600 data rows and the following two columns:
 
@@ -155,7 +155,7 @@ A value of `NaN` means that the metric is mathematically undefined, generally be
 
 ## Current Limitations
 
-ATLAS v1 is designed specifically around the format of the original dataset. It currently assumes:
+ATLAS v2 is designed specifically around the format of the original dataset. It currently assumes:
 
 * 36 PSUs
 * 100 observations per PSU
@@ -181,4 +181,4 @@ I plan to expand ATLAS with:
 * Support for different PSU and AOI dimensions
 * Comparisons between multiple land-cover models
 
-ATLAS v1 establishes the main evaluation workflow and its first set of categorical visualizations. Future versions will focus on making the analysis more spatial, flexible, and applicable to datasets beyond the original AOI.
+ATLAS v2 establishes the main evaluation workflow and its first set of categorical visualizations. Future versions will focus on making the analysis more spatial, flexible, and applicable to datasets beyond the original AOI.
